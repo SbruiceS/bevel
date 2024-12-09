@@ -1,4 +1,4 @@
-FROM openjdk:8u342-jdk
+FROM openjdk:24-jdk
 
 RUN apt-get update -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
